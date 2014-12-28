@@ -9,7 +9,7 @@ namespace ProtocolUtils
     /**
   * 字节数组与16进制字符串相互转换的工具类
   * 
-  * @author zhu@goome
+  * 
   *
   */
     public  static class Byte2Hex

@@ -9,7 +9,7 @@ namespace ProtocolUtils
     /**
   * 协议处理中的一些工具类
   * 
-  * @author zhu@goome 2010/03/27
+  * 
   *
   */
     public static class ProtocolUtil

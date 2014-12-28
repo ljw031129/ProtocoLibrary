@@ -9,7 +9,7 @@ namespace ProtocolUtils
     /**
  * 字符串工具类
  * 
- * @author zhu@goome
+ *
  *
  */
     public class StringUtil
