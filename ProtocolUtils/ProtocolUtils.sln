@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtocolUtils", "ProtocolUtils.csproj", "{F1B1CAEB-0C77-4B69-ADEB-7806F6F6AFED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1B1CAEB-0C77-4B69-ADEB-7806F6F6AFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B1CAEB-0C77-4B69-ADEB-7806F6F6AFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B1CAEB-0C77-4B69-ADEB-7806F6F6AFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B1CAEB-0C77-4B69-ADEB-7806F6F6AFED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
