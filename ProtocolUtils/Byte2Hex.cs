@@ -113,7 +113,7 @@ namespace ProtocolUtils
                     returnStr += bytes[i].ToString("X2");
                 }
             }
-            return returnStr.Trim();
+            return returnStr.Trim().ToUpper();
         }
 
         /**

@@ -40,9 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BCCCheck.cs" />
     <Compile Include="Byte2Hex.cs" />
     <Compile Include="CRC16Util.cs" />
+    <Compile Include="Models\DataCar.cs" />
+    <Compile Include="Models\DataStruct.cs" />
+    <Compile Include="EscapeReduction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protocols\DataPackages.cs" />
     <Compile Include="ProtocolUtil.cs" />
     <Compile Include="StringUtil.cs" />
   </ItemGroup>
