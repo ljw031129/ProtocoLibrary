@@ -31,8 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\数据转发相关\ConsoleApplicationGPS_Final_v15_New _Tran - 数据库\packages\Newtonsoft.Json.6.0.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,14 +47,27 @@
   <ItemGroup>
     <Compile Include="BCCCheck.cs" />
     <Compile Include="Byte2Hex.cs" />
+    <Compile Include="CacheHepler\CachingProviderBase.cs" />
+    <Compile Include="CacheHepler\GlobalCachingProvider.cs" />
+    <Compile Include="CacheHepler\ICachingProvider.cs" />
     <Compile Include="CRC16Util.cs" />
+    <Compile Include="DateUtils\DataTimeTran.cs" />
+    <Compile Include="Lbs\HttpUtils.cs" />
+    <Compile Include="Lbs\LbsUtils.cs" />
     <Compile Include="Models\DataCar.cs" />
     <Compile Include="Models\DataStruct.cs" />
     <Compile Include="EscapeReduction.cs" />
+    <Compile Include="Models\DeviceModel.cs" />
+    <Compile Include="Models\PostionModel.cs" />
+    <Compile Include="Models\StatueModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Protocols\DataPackages.cs" />
     <Compile Include="ProtocolUtil.cs" />
+    <Compile Include="SqlUtils\SqlHelper.cs" />
     <Compile Include="StringUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

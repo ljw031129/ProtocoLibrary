@@ -62,7 +62,7 @@ namespace ProtocolUtils
          * @param sequenceNum 信息序号
          * @return 返回给终端的响应
          */
-        public static String buildResponseString(String protocolID, int sequenceNum)
+        public static String buildResponseString(String protocolID, string sequenceNum)
         {
 
             // 内容长度
@@ -70,7 +70,7 @@ namespace ProtocolUtils
             // 序列号(2字节)
             // 转成16进制
             //		log.info("终端上来的序列号:" + sequenceNum);
-            String xuliehao = Convert.ToString(sequenceNum, 16);
+            String xuliehao = sequenceNum;
             //		log.info("返回终端的序列号:" + xuliehao);
             // 补足成4位，2字节
             xuliehao = xuliehao.PadLeft(4, '0');

@@ -5,6 +5,8 @@ E:\数据解析2014\SuperSocket(1.6.4).Source\QuickStart\ProtocolUtils\obj\Debug
 E:\数据解析2014\SuperSocket(1.6.4).Source\QuickStart\ProtocolUtils\obj\Debug\ProtocolUtils.pdb
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\bin\Debug\ProtocolUtils.dll
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\bin\Debug\ProtocolUtils.pdb
+E:\数据解析2014\ProtocoLibrary\ProtocolUtils\bin\Debug\Newtonsoft.Json.dll
+E:\数据解析2014\ProtocoLibrary\ProtocolUtils\bin\Debug\Newtonsoft.Json.xml
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\obj\Debug\ProtocolUtils.csprojResolveAssemblyReference.cache
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\obj\Debug\ProtocolUtils.dll
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\obj\Debug\ProtocolUtils.pdb
