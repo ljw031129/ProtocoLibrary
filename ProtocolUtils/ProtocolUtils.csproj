@@ -53,6 +53,7 @@
     <Compile Include="CRC16Util.cs" />
     <Compile Include="DateUtils\DataTimeTran.cs" />
     <Compile Include="Lbs\HttpUtils.cs" />
+    <Compile Include="Lbs\LbsUpdateData.cs" />
     <Compile Include="Lbs\LbsUtils.cs" />
     <Compile Include="Models\DataCar.cs" />
     <Compile Include="Models\DataStruct.cs" />

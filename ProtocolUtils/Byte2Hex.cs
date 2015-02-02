@@ -33,6 +33,22 @@ namespace ProtocolUtils
         }
 
         /**
+       * 高位在前
+       * 
+       * @param n 要转换的整数
+       * @return
+       */
+        public static byte[] int2bytesHex(int n)
+        {
+            byte[] ab = new byte[4];
+            ab[3] = (byte)(0xff & n);
+            ab[2] = (byte)((0xff00 & n) >> 8);
+            ab[1] = (byte)((0xff0000 & n) >> 16);
+            ab[0] = (byte)((0xff000000 & n) >> 24);
+            return ab;
+        }
+
+        /**
          * 短整型到字节数组转换
         * @param n 短整型
         * @return

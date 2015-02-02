@@ -306,8 +306,67 @@ namespace ProtocolUtils.Lbs
             }
             if (dt != null && dt.Rows.Count > 0)
             {
-                c_lat = Convert.ToDouble(dt.Rows[0]["OQ_LNG"].ToString()) + lat;
-                c_lng = Convert.ToDouble(dt.Rows[0]["OQ_LAT"].ToString()) + lng;
+                c_lat = Convert.ToDouble(dt.Rows[0]["OQ_LAT"].ToString()) + lat;
+                c_lng = Convert.ToDouble(dt.Rows[0]["OQ_LNG"].ToString()) + lng;
+            }
+            else
+            {
+                c_lat = lat;
+                c_lng = lng;
+            }
+        }
+
+        /// <summary>
+        /// 百度转GOOGLE
+        /// </summary>
+        /// <param name="lat"></param>
+        /// <param name="lng"></param>
+        /// <param name="connetString"></param>
+        /// <param name="c_lat"></param>
+        /// <param name="c_lng"></param>
+        public static void Correct_BaiDu_Google(double lat, double lng, string connetString, out double c_lat, out double c_lng)
+        {
+            string strLat = lat.ToString("0.00").Replace(".", "");
+            string strLng = lng.ToString("0.00").Replace(".", "");
+
+            DataTable dtBaidu = null;
+            string commandTextBadu = "SELECT  TOP 1 [X_LNG],[X_LAT] FROM latlng_off_baidu WHERE b_lat='" + strLat + "'AND b_lng='" + strLng + "'";
+            using (SqlConnection conn = new SqlConnection(connetString))
+            {
+                conn.Open();
+                try
+                {
+                    dtBaidu = SqlHelper.ExecuteDataTable(conn, commandTextBadu);
+                }
+                catch (Exception)
+                {
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+            DataTable dt = null;
+            string commandText = "SELECT  TOP 1 [X_LNG],[X_LAT],[OQ_LNG],[OQ_LAT],[Q_LNG],[Q_LAT] FROM x_offset WHERE x_lat='" + dt.Rows[0]["x_lat"].ToString() + "'AND x_lng='" + dt.Rows[0]["x_lng"].ToString() + "'";
+            using (SqlConnection conn = new SqlConnection(connetString))
+            {
+                conn.Open();
+                try
+                {
+                    dt = SqlHelper.ExecuteDataTable(conn, commandText);
+                }
+                catch (Exception)
+                {
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+            if (dt != null && dt.Rows.Count > 0)
+            {
+                c_lat = Convert.ToDouble(dt.Rows[0]["OQ_LAT"].ToString()) + lat;
+                c_lng = Convert.ToDouble(dt.Rows[0]["OQ_LNG"].ToString()) + lng;
             }
             else
             {
