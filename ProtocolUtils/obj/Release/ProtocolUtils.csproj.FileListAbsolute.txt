@@ -4,4 +4,13 @@ E:\数据解析2014\ProtocoLibrary\ProtocolUtils\bin\Release\Newtonsoft.Json.dll
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\bin\Release\Newtonsoft.Json.xml
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\obj\Release\ProtocolUtils.dll
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\obj\Release\ProtocolUtils.pdb
-E:\数据解析2014\ProtocoLibrary\ProtocolUtils\obj\Release\ProtocolUtils.csprojResolveAssemblyReference.cache
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Release\ProtocolUtils.dll
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Release\ProtocolUtils.pdb
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Release\Newtonsoft.Json.dll
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Release\SuperSocket.Common.dll
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Release\SuperSocket.Common.pdb
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Release\SuperSocket.Common.xml
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Release\Newtonsoft.Json.xml
+E:\GitHub\ProtocoLibrary\ProtocolUtils\obj\Release\ProtocolUtils.csprojResolveAssemblyReference.cache
+E:\GitHub\ProtocoLibrary\ProtocolUtils\obj\Release\ProtocolUtils.dll
+E:\GitHub\ProtocoLibrary\ProtocolUtils\obj\Release\ProtocolUtils.pdb

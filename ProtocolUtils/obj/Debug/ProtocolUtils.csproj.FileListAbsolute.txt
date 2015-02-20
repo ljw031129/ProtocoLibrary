@@ -10,3 +10,13 @@ E:\数据解析2014\ProtocoLibrary\ProtocolUtils\bin\Debug\Newtonsoft.Json.xml
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\obj\Debug\ProtocolUtils.csprojResolveAssemblyReference.cache
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\obj\Debug\ProtocolUtils.dll
 E:\数据解析2014\ProtocoLibrary\ProtocolUtils\obj\Debug\ProtocolUtils.pdb
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Debug\ProtocolUtils.dll
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Debug\ProtocolUtils.pdb
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Debug\SuperSocket.Common.dll
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Debug\SuperSocket.Common.pdb
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Debug\SuperSocket.Common.xml
+E:\GitHub\ProtocoLibrary\ProtocolUtils\bin\Debug\Newtonsoft.Json.xml
+E:\GitHub\ProtocoLibrary\ProtocolUtils\obj\Debug\ProtocolUtils.csprojResolveAssemblyReference.cache
+E:\GitHub\ProtocoLibrary\ProtocolUtils\obj\Debug\ProtocolUtils.dll
+E:\GitHub\ProtocoLibrary\ProtocolUtils\obj\Debug\ProtocolUtils.pdb

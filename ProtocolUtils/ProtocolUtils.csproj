@@ -36,6 +36,7 @@
       <HintPath>..\..\..\数据转发相关\ConsoleApplicationGPS_Final_v15_New _Tran - 数据库\packages\Newtonsoft.Json.6.0.6\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Xml.Linq" />
@@ -51,17 +52,21 @@
     <Compile Include="CacheHepler\GlobalCachingProvider.cs" />
     <Compile Include="CacheHepler\ICachingProvider.cs" />
     <Compile Include="CRC16Util.cs" />
-    <Compile Include="DateUtils\DataTimeTran.cs" />
+    <Compile Include="DateUtils.cs" />
+    <Compile Include="Lbs\DataBaseOperate.cs" />
     <Compile Include="Lbs\HttpUtils.cs" />
     <Compile Include="Lbs\LbsUpdateData.cs" />
     <Compile Include="Lbs\LbsUtils.cs" />
+    <Compile Include="Models\CommandJsonData.cs" />
     <Compile Include="Models\DataCar.cs" />
     <Compile Include="Models\DataStruct.cs" />
     <Compile Include="EscapeReduction.cs" />
     <Compile Include="Models\DeviceModel.cs" />
     <Compile Include="Models\PostionModel.cs" />
     <Compile Include="Models\StatueModel.cs" />
+    <Compile Include="Models\TrackEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protocols\CommandPackageUntils.cs" />
     <Compile Include="Protocols\DataPackages.cs" />
     <Compile Include="ProtocolUtil.cs" />
     <Compile Include="SqlUtils\SqlHelper.cs" />
@@ -69,6 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SuperSocket%281.6.4%29.Source\Common\SuperSocket.Common.Net40.csproj">
+      <Project>{a24f4d38-ba9c-4fd6-95b7-4980de36131a}</Project>
+      <Name>SuperSocket.Common.Net40</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
